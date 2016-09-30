@@ -3,11 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+# N extensions
 *.so
-
+*.py
+*.py.exe
+*.pyappx
 # Distribution / packaging
-.Python
+.PyExe
 env/
 build/
 develop-eggs/
@@ -15,14 +17,17 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+lib86/
 lib64/
 parts/
 sdist/
 var/
+cd/
+mkdir/
 *.egg-info/
 .installed.cfg
-*.egg
+*.egg-var
+*.egg-mkdir/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
